@@ -146,6 +146,53 @@ nav a:hover {
 .carousel.play .slide {
   animation: slideAnimation 10s infinite;
 }
+/* khadija */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Styles for the blue section */
+#subjects-section {
+  background-color: #3490dc;
+  height: 95vh;
+  padding: 20px;
+  color: white;
+}
+/* Styles for the main heading */
+#subjects-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+/* Styles for the subtitle */
+#subjects-section .sub {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+/* Styles for the subject list */
+#subjects-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+/* Styles for each subject */
+#subjects-section li {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  /* Set the text color to a dark color to ensure visibility */
+  color: #333;
+}
+
+
+
+
 /*Dont use or try to uncomment this.hehhehehehehehe otherwise aho */
 /* .typed-out{
       overflow: hidden;
