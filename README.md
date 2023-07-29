@@ -13,19 +13,19 @@ To get started with the project, follow these steps:
 1. Fork this repository to your GitHub account by clicking on the "Fork" button in the top-right corner of the repository page.
 
 2. Clone the forked repository to your local machine using the following command:<br/>
-    ```git clone https://github.com/BSCS2021/joint-project-1.git```
+   `git clone https://github.com/BSCS2021/joint-project-1.git`
 
 3. Set up the project in your development environment.
 
 4. Before working on any tasks, create a new branch using the following naming convention:<br/>
-      ```git checkout -b <branch_name>```
+   `git checkout -b <branch_name>`
 
    Replace `<branch_name>` with a descriptive name that indicates the task you will be working on.
 
 5. Start working on your part of the project and make regular commits to your branch.
 
 6. Push your changes to your forked repository regularly using the following command:<br/>
-            ```git push origin <branch_name>```
+   `git push origin <branch_name>`
 
 Replace `<branch_name>` with the name of the branch you created in the previous step.
 
