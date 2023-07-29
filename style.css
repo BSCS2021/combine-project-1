@@ -1,0 +1,99 @@
+/* Boiler code */
+
+/* ----------------------------------------------------------
+      Shahzaman's Code starts here
+/* ---------------------------------------------------------- */
+
+@font-face {
+  font-family: "Tektur";
+  src: url("assets/font/static/Tektur-Regular.ttf") format("truetype");
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+}
+
+.slide {
+  flex: 0 0 100%;
+  transition: transform 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.slide-video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Tektur", sans-serif;
+  text-align: left;
+  padding: 100px 200px 0px 120px;
+}
+
+.slide h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slide p {
+  font-size: 16px;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-100%);
+  }
+  66.66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.carousel.play .slide {
+  animation: slideAnimation 10s infinite;
+}
+/*Dont use or try to uncomment this.hehhehehehehehe otherwise aho */
+/* .typed-out{
+      overflow: hidden;
+      border-right: .15em solid white;
+      white-space: nowrap;
+      font-size: 1.6rem;
+      width: 0;
+      animation: typing 1s forwards;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+
+/* ----------------------------------------------------------
+        Shahzaman's Code starts here
+  ---------------------------------------------------------- */
