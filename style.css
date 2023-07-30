@@ -146,51 +146,6 @@ nav a:hover {
 .carousel.play .slide {
   animation: slideAnimation 10s infinite;
 }
-/* khadija */
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-/* Styles for the blue section */
-#subjects-section {
-  background-color: #3490dc;
-  height: 95vh;
-  padding: 20px;
-  color: white;
-}
-/* Styles for the main heading */
-#subjects-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-/* Styles for the subtitle */
-#subjects-section .sub {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-/* Styles for the subject list */
-#subjects-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-/* Styles for each subject */
-#subjects-section li {
-  background-color: #ffffff;
-  border-radius: 5px;
-  padding: 10px;
-  text-align: center;
-  font-size: 1.2rem;
-  /* Set the text color to a dark color to ensure visibility */
-  color: #333;
-}
-
-
 
 
 /*Dont use or try to uncomment this.hehhehehehehehe otherwise aho */
@@ -210,3 +165,60 @@ body {
 /* ----------------------------------------------------------
         Shahzaman's Code starts here
   ---------------------------------------------------------- */
+
+/* khadija */
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#subjects-section {
+  background-color:darkslategrey;
+  padding: 20px;
+  color:darkgrey;
+}
+
+#subjects-section h2 {
+  font-size:30px;
+  margin-bottom: 20px;
+}
+
+#subjects-section .sub {
+  font-size:30px;
+  margin-bottom: 10px;
+}
+
+#subjects-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#subjects-section li {
+  background-color:dimgrey;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  color:khaki;
+  width: 350px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#subjects-section li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#list p {
+  color:rgb(236, 235, 220);
+}
+
+       /* code ends here*/
