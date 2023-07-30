@@ -146,6 +146,64 @@ nav a:hover {
 .carousel.play .slide {
   animation: slideAnimation 10s infinite;
 }
+
+/* khadija */
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#subjects-section {
+  background-color:darkslategrey;
+  padding: 20px;
+  color:darkgrey;
+}
+
+#subjects-section h2 {
+  font-size:30px;
+  margin-bottom: 20px;
+}
+
+#subjects-section .sub {
+  font-size:30px;
+  margin-bottom: 10px;
+}
+
+#subjects-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#subjects-section li {
+  background-color:dimgrey;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  color:khaki;
+  width: 350px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#subjects-section li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#list p {
+  color:rgb(236, 235, 220);
+}
+
+       /* code ends here*/
+
 /*Dont use or try to uncomment this.hehhehehehehehe otherwise aho */
 /* .typed-out{
       overflow: hidden;
