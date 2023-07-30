@@ -1,4 +1,33 @@
 /* Boiler code */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar:hover {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f16e;
+  backdrop-filter: blur(10px);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8888887c;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8888889f;
+  transition: 0.3s;
+}
 
 /* ----------------------------------------------------------
       Vaneeza Noor's Code starts here
