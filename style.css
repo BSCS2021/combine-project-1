@@ -250,7 +250,7 @@ body {
 }
 
 /* code ends here*/
-<<<<<<< HEAD
+
 /* Nisha's Code Starts Here */
 body {
   font-family: Arial, sans-serif;
@@ -261,6 +261,7 @@ body {
 .social-media-section {
   text-align: center;
   padding: 20px;
+  background-color: pink;
 }
 
 .social-media-logos {
@@ -274,8 +275,8 @@ body {
 }
 
 .social-media-icon img {
-  width: 50px; /* Adjust the size of the icons as needed */
-  height: 50px;
+  width: 100px; /* Adjust the size of the icons as needed */
+  height: 100px;
   border-radius: 50%;
 }
 
@@ -283,12 +284,10 @@ body {
   transform: scale(1.2); /* Increase the scale to zoom in on hover */
 }
 /* Nish's Code Ends Here */
-=======
-
 
 /*    ZOHA ASGHAR CODE START FROM HERE */
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -307,10 +306,10 @@ html,body{
   height: 100%;
 
 } */
-.container .gallery{
+.container .gallery {
   /* background-color: antiquewhite; */
   position: relative;
-  height:200vh;
+  height: 200vh;
   width: 90%;
   margin: auto;
   padding: 20px 0;
@@ -319,8 +318,8 @@ html,body{
   row-gap: 10px;
   column-gap: 10px;
 }
-.container .gallery .img{
-  position: relative; 
+.container .gallery .img {
+  position: relative;
   min-height: 100%;
   width: 100%;
   overflow: hidden;
@@ -328,128 +327,117 @@ html,body{
   box-shadow: 2px 2px 2px 2px rgba(160, 158, 158, 0.9);
   border-radius: 10px;
 }
-.container .gallery .img:first-child{
+.container .gallery .img:first-child {
   grid-column-start: span 2;
   grid-row-start: span 2;
 }
-.container .gallery .img:nth-child(4n+5){
+.container .gallery .img:nth-child(4n + 5) {
   grid-row-start: span 1;
   grid-column-start: span 1;
 }
-.container .gallery .img:nth-child(6n+7){
+.container .gallery .img:nth-child(6n + 7) {
   grid-row-start: span 1;
 }
-.container .gallery .img:nth-child(8n+9){
+.container .gallery .img:nth-child(8n + 9) {
   grid-row-start: span 1;
 }
-.container .gallery .img img{
+.container .gallery .img img {
   min-height: 100%;
   width: 100%;
   object-fit: cover;
   transition: 0.3s ease-in-out;
   margin: 0px;
 }
-.container .gallery .img:hover img{
+.container .gallery .img:hover img {
   filter: brightness(1) grayscale(0);
-  
-  
 }
-div.gallery .img:hover img{
-  border:2px solid #7777;
+div.gallery .img:hover img {
+  border: 2px solid #7777;
 }
-footer{
+footer {
   background-color: antiquewhite;
   color: black;
   font-family: sans-serif;
   padding: 2%;
   text-align: center;
 }
-@media only screen and (max-width:768px){
-  .container h1{
-      font-size: 1.8em;
-      width: 400px;
+@media only screen and (max-width: 768px) {
+  .container h1 {
+    font-size: 1.8em;
+    width: 400px;
   }
-  .container .gallery .img:hover img{
-      filter: brightness(1) grayscale(0);
-      
+  .container .gallery .img:hover img {
+    filter: brightness(1) grayscale(0);
   }
-  div.gallery .img:hover img{
-      border:2px solid #7777;
-    }
-  .container .gallery{
-      display: grid;
-      grid-template-columns: auto auto auto;
+  div.gallery .img:hover img {
+    border: 2px solid #7777;
+  }
+  .container .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 }
-@media only screen and (max-width:430px){
-  .container h1{
-      font-size: 1.2em;
-      width: 300px;
+@media only screen and (max-width: 430px) {
+  .container h1 {
+    font-size: 1.2em;
+    width: 300px;
   }
-  .container .gallery{
-      display: block;
-      
+  .container .gallery {
+    display: block;
   }
-  .container .gallery .img{
-      display: block;
-      width: 100%;
-      height: 100%;
+  .container .gallery .img {
+    display: block;
+    width: 100%;
+    height: 100%;
   }
-  .container .gallery .img:hover img{
-      filter: brightness(1) grayscale(0);
-      
+  .container .gallery .img:hover img {
+    filter: brightness(1) grayscale(0);
   }
-  div.gallery .img:hover img{
-      border:2px solid #7777;
-  
-    }
+  div.gallery .img:hover img {
+    border: 2px solid #7777;
+  }
 }
 /* ZOHA code end here */
-<<<<<<< HEAD
 
-
-
-<!--laiba code end  here-->
 /*laiba's code start here*/
-body, h1, h2{
+body,
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
 
-
 .section-block {
-  background-color: #468B97;
-    color: #fff;
-    text-align:justify;
+  background-color: #468b97;
+  color: #fff;
+  text-align: justify;
   padding: 20px;
 }
-
 
 .section-block h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-*{
+/* 
+ {
   margin: 0;
   padding: 0;
-}
+} */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #468B97;
-  color: #fff;
-  text-align:justify;
- 
-  
+  background-color: #468b97;
+  /* color: #fff; */
+  text-align: justify;
 }
 header {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 20px;
-  background-color: #1D5B79;
+  background-color: #1d5b79;
 }
 
 .blog-container {
@@ -457,12 +445,11 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px;
-  
 }
 
 .blog-post {
-  width: calc(33.33% - 20px); 
-  background-color: #EF6262;
+  width: calc(33.33% - 20px);
+  background-color: #ef6262;
   border: 1px solid #3e3f83;
   color: aliceblue;
   padding: 20px;
@@ -471,21 +458,18 @@ header {
   flex-direction: column;
 }
 
-
-
 .blog-post h2 {
   margin-top: 0;
 }
 
 .blog-post p {
- 
   line-height: 1.6;
 }
 
 .blog-post a {
   display: inline-block;
   text-align: center;
-  background-color:#98D8AA;
+  background-color: #98d8aa;
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
@@ -493,19 +477,14 @@ header {
   margin-top: 10px;
 }
 
-
-
 .blog-post a:hover {
   background-color: #555;
 }
 
 footer {
-  background-color: #F3AA60;
+  background-color: #f3aa60;
   color: #fff;
   text-align: center;
   padding: 10px;
 }
 /*laiba's code end here*/
-=======
->>>>>>> 61402604f8d3db1b60b245d4783ab754151d7559
->>>>>>> 3bc80a6f5b7d02b3f9328734f588dde1e292b5ae
