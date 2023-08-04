@@ -250,6 +250,40 @@ body {
 }
 
 /* code ends here*/
+<<<<<<< HEAD
+/* Nisha's Code Starts Here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media-logos {
+  margin-top: 20px;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.social-media-icon img {
+  width: 50px; /* Adjust the size of the icons as needed */
+  height: 50px;
+  border-radius: 50%;
+}
+
+.social-media-icon:hover {
+  transform: scale(1.2); /* Increase the scale to zoom in on hover */
+}
+/* Nish's Code Ends Here */
+=======
 
 
 /*    ZOHA ASGHAR CODE START FROM HERE */
@@ -371,6 +405,7 @@ footer{
     }
 }
 /* ZOHA code end here */
+<<<<<<< HEAD
 
 
 
@@ -471,3 +506,6 @@ footer {
   padding: 10px;
 }
 /*laiba's code end here*/
+=======
+>>>>>>> 61402604f8d3db1b60b245d4783ab754151d7559
+>>>>>>> 3bc80a6f5b7d02b3f9328734f588dde1e292b5ae
