@@ -354,11 +354,11 @@ html,body{
 div.gallery .img:hover img {
   border: 2px solid #7777;
 }
-footer {
-  background-color: antiquewhite;
+.footer {
+  background-color: rgb(248, 194, 124);
   color: black;
   font-family: sans-serif;
-  padding: 2%;
+  /* padding: 2%; */
   text-align: center;
 }
 @media only screen and (max-width: 768px) {
